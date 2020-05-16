@@ -1,0 +1,83 @@
+/*BIG TABLET TO 1200PX (WIDTHS SMALLER THAN THE 1140PX ROW WE DEFINED) */
+
+@media only screen and (max-width: 1200px)
+
+{
+    
+perfect
+
+}
+
+/*FOR SMALL TABLET TO BIG TABLET 768 TO 1023PX*/
+
+@media only screen and (max-width: 1023px)
+
+{
+    html {
+
+    font-size: 16px;
+}
+    
+
+.snippets-illustration img {
+
+    width: 500px;
+    height: auto;
+}
+    .snippets-section h2 {
+   padding-top: 10px;
+}
+    .snippets-illustration {
+
+
+    grid-gap: 5px;
+    margin-top: 60px;
+}
+    
+    .snippets-illustration h3 {
+
+    padding-top: 0;
+    padding-bottom: 12px;
+    font-size: 95%;
+
+}
+    .snippets-illustration li {
+padding: 5px;
+}
+    .snippets-illustration .small-text {
+
+    width: 80%
+}
+    
+    .clipboard-section h2,
+     .workflow-section h2{
+        
+        width: 90%;
+        margin-left:5%;
+    }
+
+.company-logos img {
+     display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+/*FOR SMALL PHONES TO SMALL TABLETS 484px TO 767px*/
+
+
+@media only screen and (max-width: 767px)
+
+{
+    
+    
+}
+
+/*FOR SMALL PHONES E.G IPHONE 5'S AND BELOW:
+FROM 0 TO 480PX*/
+@media only screen and (max-width: 480px)
+
+{
+    
+    
+    
+}
